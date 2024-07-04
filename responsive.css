@@ -1,0 +1,123 @@
+@media screen and (max-width:1515px) {
+  .service{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
+@media screen and (max-width:1221px) {
+	.container {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+}
+
+@media screen and (max-width:1007px) {
+  .navigation {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width:908px) {
+  .footer_flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 35px;
+    gap: 20px;
+  }
+  .header_text {
+    /* padding-top: 282px;
+    padding-left: 160px; */
+    bottom: 100px;
+    position: absolute;
+    left: 120px;
+  }
+  .header_text {
+    /* padding-top: 282px;
+    padding-left: 160px; */
+    bottom: 120px;
+    position: absolute;
+    left: 50px;
+  }
+  .header_text h1 {
+    color: #fff;
+    font-size: 120%;
+    font-weight: 400;
+    line-height: 23px;
+  }
+  
+}
+
+@media screen  and (max-width:810px){
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 33px;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen  and (max-width:700px){
+  .navigation {
+		gap: 20px;
+		align-items: start;
+		flex-direction: column;
+		width: 300px;
+		height: 80vh;
+		background-color:rgba(0, 0, 0, 0.457) ;
+		margin-top: 0;
+		position: fixed;
+		top: 0;
+		left: -300px	;
+		padding-top: 10px;
+		padding-left: 30px;
+		transition: 1s all ease-in-out;
+    z-index: 999;
+	}
+
+	#resp_check:checked ~ .navigation{
+		left: 0;
+	}
+
+	#resp_icon{
+    display: block;
+  }
+}
+
+@media screen and (max-width:594px) {
+  .right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .common{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+}
+@media screen  and (max-width:457px){
+  .header_text {
+    /* padding-top: 282px;
+    padding-left: 160px; */
+    bottom: 190px;
+    position: absolute;
+    left: 30px;
+  }
+  .header_text h1 {
+    color: #fff;
+    font-size: 120%;
+    font-weight: 400;
+    line-height: 23px;
+  }
+}
